@@ -1,14 +1,13 @@
 # BookStack Manual Installation (Custom Fork)
 
-Ini adalah panduan instalasi manual untuk menjalankan proyek BookStack Laravel ini secara lokal maupun di server. Pastikan sistem Anda telah memenuhi kebutuhan minimum sebelum mengikuti langkah-langkah di bawah ini.
+Ini adalah panduan instalasi manual untuk menjalankan proyek Aksara-Mentari Laravel ini secara lokal maupun di server. Pastikan sistem Anda telah memenuhi kebutuhan minimum sebelum mengikuti langkah-langkah di bawah ini.
 
 ## Requirements
 
 - PHP >= 8.1
 - Composer
-- MySQL / MariaDB
+- MariaDB
 - Node.js & NPM
-- Web server (Apache/Nginx)
 - Git
 
 ---
@@ -18,8 +17,8 @@ Ini adalah panduan instalasi manual untuk menjalankan proyek BookStack Laravel i
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/BookStack.git
-cd BookStack
+git@github.com:SYAROWIISAIL22/Aksara-Mentari.git
+cd Aksara-Mentari
 ```
 
 ### 2. Install PHP Dependencies
