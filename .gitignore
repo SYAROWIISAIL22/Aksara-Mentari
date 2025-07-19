@@ -1,0 +1,55 @@
+# Laravel default
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Ignore IDE/editor files
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing & logs
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+.phpunit.result.cache
+coverage/
+.env.testing
+.env.example.local
+
+# BookStack-specific (if any)
+/bookstack-storage/
+/themes/bookstack-build/
+/build/
+/esbuild-meta.json
+
+# SASS & Tailwind (generated files)
+/public/css
+/public/js
+resources/css/app.css
+resources/js/app.js
+
+# Optional: compiled files (if you recompile assets)
+/public/mix-manifest.json
+/public/hot
+
+# Docker volumes (optional)
+/docker-data
+
+# Optional: Lock files (if you want them ignored)
+/package-lock.json
+/composer.lock
