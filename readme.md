@@ -41,23 +41,13 @@ Edit .env dan isi detail koneksi database, konfigurasi email, dan pengaturan lai
 php artisan key:generate
 ```
 
-### 5. Set Folder Permissions
-
-Pastikan folder berikut dapat ditulis oleh web server:
-
-```bash
-chmod -R 775 storage
-chmod -R 775 bootstrap/cache
-chmod -R 775 public/uploads
-```
-
-### 6. Run Database Migration
+### 5. Run Database Migration
 
 ```bash
 php artisan migrate
 ```
 
-### 7. Build Frontend Assets
+### 6. Build Frontend Assets
 
 ```bash
 npm install
